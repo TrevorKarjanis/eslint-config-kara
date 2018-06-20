@@ -24,7 +24,7 @@ Extend eslint-config-kara in your [ESLint configuration](https://eslint.org/docs
 
 ```json
 {
-    extends: "eslint-config-kara"
+    "extends": "eslint-config-kara"
 }
 ```
 Override the environment configuration to support Node.js or older browsers. See .eslintrc.ie.js for an example.
