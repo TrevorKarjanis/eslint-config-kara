@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-kara",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Trevor Karjanis"
   },
   "bugs": {
     "url": "https://github.com/TrevorKarjanis/eslint-config-kara/issues"
   },
-  "description": "Kara - ESLint Shareable Config",
+  "description": "This package provides an ESLint shareable configuration for JavaScript.",
   "dependencies": {
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.11.0",
