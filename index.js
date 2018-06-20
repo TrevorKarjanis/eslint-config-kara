@@ -1,3 +1,4 @@
+/* eslint-env browser:false, node */
 module.exports = {
   env: {
     browser: true,
@@ -16,15 +17,15 @@ module.exports = {
     }
   },
   rules: {
-    "array-bracket-spacing": "error",
-    "block-scoped-var": "error",
+    'array-bracket-spacing': 'error',
+    'block-scoped-var': 'error',
     'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
-    "capitalized-comments": [
-      "error",
-      "always",
-      { "ignoreConsecutiveComments": true }
+    'capitalized-comments': [
+      'error',
+      'always',
+      { 'ignoreConsecutiveComments': true }
     ],
-    "computed-property-spacing": "error",
+    'computed-property-spacing': 'error',
     indent: [
       'error',
       2,
@@ -35,12 +36,12 @@ module.exports = {
         SwitchCase: 1
       }
     ],
-    "max-len": [
-      "error",
+    'max-len': [
+      'error',
       {
-        "ignoreRegExpLiterals": true,
-        "ignoreStrings": true,
-        "ignoreUrls": true
+        'ignoreRegExpLiterals': true,
+        'ignoreStrings': true,
+        'ignoreUrls': true
       }
     ],
     'no-cond-assign': 'off',
